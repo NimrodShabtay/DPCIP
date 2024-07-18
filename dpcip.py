@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--num_iter', type=int, default=2501, help='number of epochs of training')
+parser.add_argument('--num_iter', type=int, default=5001, help='number of epochs of training')
 parser.add_argument('--img_size', type=int, default=[256, 512], help='size of each image dimension')
 parser.add_argument('--kernel_size', type=int, default=[71, 71], help='size of blur kernel [height, width]')
 parser.add_argument('--data_path', type=str, default="data", help='path to blurry image')
